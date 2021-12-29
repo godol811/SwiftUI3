@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7C0379CF277C73A700AB120C /* AsyncImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsyncImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C0379CF277C73A700AB120C /* SwiftUI3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C0379D2277C73A700AB120C /* AsyncImageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageApp.swift; sourceTree = "<group>"; };
 		7C0379D4277C73A800AB120C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7C0379D6277C73A900AB120C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -35,7 +35,7 @@
 		7C0379C6277C73A700AB120C = {
 			isa = PBXGroup;
 			children = (
-				7C0379D1277C73A700AB120C /* AsyncImage */,
+				7C0379D1277C73A700AB120C /* SwiftUI3 */,
 				7C0379D0277C73A700AB120C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,12 +43,12 @@
 		7C0379D0277C73A700AB120C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7C0379CF277C73A700AB120C /* AsyncImage.app */,
+				7C0379CF277C73A700AB120C /* SwiftUI3.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7C0379D1277C73A700AB120C /* AsyncImage */ = {
+		7C0379D1277C73A700AB120C /* SwiftUI3 */ = {
 			isa = PBXGroup;
 			children = (
 				7C0379D2277C73A700AB120C /* AsyncImageApp.swift */,
@@ -56,7 +56,7 @@
 				7C0379D6277C73A900AB120C /* Assets.xcassets */,
 				7C0379D8277C73A900AB120C /* Preview Content */,
 			);
-			path = AsyncImage;
+			path = SwiftUI3;
 			sourceTree = "<group>";
 		};
 		7C0379D8277C73A900AB120C /* Preview Content */ = {
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7C0379CE277C73A700AB120C /* AsyncImage */ = {
+		7C0379CE277C73A700AB120C /* SwiftUI3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7C0379DD277C73A900AB120C /* Build configuration list for PBXNativeTarget "AsyncImage" */;
+			buildConfigurationList = 7C0379DD277C73A900AB120C /* Build configuration list for PBXNativeTarget "SwiftUI3" */;
 			buildPhases = (
 				7C0379CB277C73A700AB120C /* Sources */,
 				7C0379CC277C73A700AB120C /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = AsyncImage;
+			name = SwiftUI3;
 			productName = AsyncImage;
-			productReference = 7C0379CF277C73A700AB120C /* AsyncImage.app */;
+			productReference = 7C0379CF277C73A700AB120C /* SwiftUI3.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7C0379CA277C73A700AB120C /* Build configuration list for PBXProject "AsyncImage" */;
+			buildConfigurationList = 7C0379CA277C73A700AB120C /* Build configuration list for PBXProject "SwiftUI3" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7C0379CE277C73A700AB120C /* AsyncImage */,
+				7C0379CE277C73A700AB120C /* SwiftUI3 */,
 			);
 		};
 /* End PBXProject section */
@@ -282,8 +282,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.godol.AsyncImage;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.godol.SwiftUI3;
+				PRODUCT_NAME = SwiftUI3;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -311,8 +311,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.godol.AsyncImage;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.godol.SwiftUI3;
+				PRODUCT_NAME = SwiftUI3;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,7 +322,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7C0379CA277C73A700AB120C /* Build configuration list for PBXProject "AsyncImage" */ = {
+		7C0379CA277C73A700AB120C /* Build configuration list for PBXProject "SwiftUI3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7C0379DB277C73A900AB120C /* Debug */,
@@ -331,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7C0379DD277C73A900AB120C /* Build configuration list for PBXNativeTarget "AsyncImage" */ = {
+		7C0379DD277C73A900AB120C /* Build configuration list for PBXNativeTarget "SwiftUI3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7C0379DE277C73A900AB120C /* Debug */,
