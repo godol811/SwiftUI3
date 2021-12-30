@@ -1,8 +1,8 @@
 //
-//  ContentView.swift
-//  AsyncImage
+//  AsyncImage.swift
+//  SwiftUI3
 //
-//  Created by 고종찬 on 2021/12/29.
+//  Created by 고종찬 on 2021/12/30.
 //
 
 import SwiftUI
@@ -24,8 +24,7 @@ extension Image {
     }
     
 }
-
-struct ContentView: View {
+struct AsyncImageView: View {
     
     private let imageURL = "https://credo.academy/credo-academy@3x.png"
     
@@ -66,8 +65,9 @@ struct ContentView: View {
             case .success(let image):
                 image.imageModifier()
 //                    .transition(.move(edge: .bottom))
-                    .transition(.slide)
 //                    .transition(.scale)
+                    .transition(.slide)
+
             case .empty:
                 Image(systemName: "photo.circle.fill").iconModifier()
             case .failure(_):
@@ -80,8 +80,10 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+
+
+struct AsyncImage_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        AsyncImageView()
     }
 }
